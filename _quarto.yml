@@ -13,7 +13,7 @@ website:
     left:
       - research.qmd
       - services.qmd
-      - career.qmd
+      - study.qmd
       
   page-footer: 
     background: primary
