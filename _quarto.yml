@@ -4,7 +4,7 @@ project:
 
 website:
   #google-analytics: "G-JMHP9PPZM4"
-  title: "Grupo Energía Eólica"
+  title: "Energía Eólica IER-UNAM"
   page-navigation: true
   navbar:
     background: primary
