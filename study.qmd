@@ -17,7 +17,7 @@ p, h1, h2, h3, h4, h5, h6 {
 La Licenciatura en Ingeniería en Energías Renovables (LIER) es una carrera multidisciplinaria que surge como respuesta a los grandes retos energéticos y la problemática ambiental mundial, que demandan profesionales que atiendan las necesidades del sector energético y el desarrollo sustentable, con responsabilidad social. Esta carrera, se realiza en colaboración con el Instituto de Ingeniería de la UNAM (II-UNAM). Tiene una duración de 4 años y su mapa curricular se ejecuta semestralmente. Y participan especialistas en las áreas de sistemas fototérmicos, sistemas fotovoltáicos, diseño de materiales, sistemas de refrigeración y bombas de calor, energía geotérmica, energía eólica, biocombustibles, celdas de combustible, energía en edificaciones, planeación energética, sustentabilidad energética e impacto ambiental. Aunado a esta infraestructura de recursos humanos, el II-UNAM dispone también de una sólida planta académica con experiencia y reconocimiento en las áreas de sistemas fototérmicos, hidráulica, energía oceánica, energía en edificaciones y biocombustibles.
 
 <div class="image-container">
-  <img src="./imgs/IERBlanco.png" alt="Mapa Curricular" class="centered-image">
+  <img src="./imgs/MapCurricular.png" alt="Mapa Curricular" class="centered-image">
   <p class="footer">Mapa Curricular</p>
 </div>
 
@@ -25,16 +25,19 @@ La Licenciatura en Ingeniería en Energías Renovables (LIER) es una carrera mul
 El IER es sede del Posgrado en Ingeniería Campo de Conocimiento en Energía (PIcE), el cual, tiene como misión el Formar investigadores de excelencia, capaces de generar nuevo conocimiento y concebir estrategias técnicas y metodologías que solucionen problemas clave y prioritarios en el desarrollo del país. Este Posgrado contempla planes de estudio para Maestría y Doctorado reconocidos por el Programa Nacional de Posgrados de Calidad (PNPC) de CONACYT, contando el Programa de Maestría con la certificación de Programa Nacional Consolidado, mientras que el de Doctorado está certificado como Programa de Competencia Internacional, que es el nivel más alto de acreditación. Hoy día ofrece formación académica a 67 alumnos de Maestría y 97 de Doctorado.
 
 <div class="clearfix">
-  <img src="./imgs/IERBlanco.png" alt="Logo IER" class="img-left"/>
+  <img src="./imgs/plazaQuetzal.jpg" alt="Plaza IER" class="img-left"/>
     <div class="text-container">
 
 Los campos disciplinarios en el Posgrado en Ingeniería (Energía) son: Diseño Bioclimático, Fuentes Renovables y Sistemas Energéticos con las siguientes subdisciplinas:
+
 - Diseño Bioclimático
   - Diseño bioclimático de edificaciones
+
 - Fuentes Renovables
   - Geotermia
   - Solar fototérmica
   - Solar fotovoltaica
+  
 - Sistemas Energéticos
   - Economía de la energía
   - Energía y medio ambiente
