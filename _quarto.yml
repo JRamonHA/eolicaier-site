@@ -2,10 +2,6 @@ project:
   type: website
   output-dir: docs
 
-profile:
-  default: spanish
-  group: [spanish, english]
-
 website:
   #google-analytics: "G-JMHP9PPZM4"
   title: "Grupo Energía Eólica"
