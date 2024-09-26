@@ -23,7 +23,7 @@ Análisis de la modelización meteorológica en aplicaciones eólicas. En esta �
 
 ### Dinámica de fluidos computacional
 
-<iframe width="300" height="175" src="https://www.youtube.com/embed/C7knZK5cumY" title="Eje Vertical" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/C7knZK5cumY" title="Eje Vertical" frameborder="0" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe>
 
 El grupo desarrolla códigos numéricos para resolver ecuaciones de conservación de masa y momento de flujo turbulento. Consideramos la formulación de Reynolds Averaged Navier-Stokes (RANS) y exploramos varias alternativas para especificar las condiciones de contorno y el problema de cierre. Recientemente, hemos considerado desarrollar modelos de interacciones fluido-estructura para comprender la transferencia de energía mecánica del viento a un sistema que modifica su posición debido a la interacción aerodinámica. En nuestro contexto, la aplicación obvia de estas condiciones físicas es la interacción del viento con las palas de las turbinas. Además, estamos interesados en la posibilidad de utilizar herramientas de inteligencia artificial para resolver el problema de cierre en turbulencias, y otras herramientas de aprendizaje automático para controlar la dinámica de los aerogeneradores.
 
