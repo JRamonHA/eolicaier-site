@@ -1,40 +1,6 @@
 /* css styles */
 
-/* Contenedores generales */
-.clearfix::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
-/* Contenedor para el texto */
-.text-container {
-  margin-left: 315px; /* Ajusta el margen según el ancho de la imagen o vídeo */
-  width: calc(100% - 315px); /* Ajusta el ancho según el margen */
-  overflow: hidden; /* Agrega este estilo para que el texto no se desborde */
-  text-align: justify; /* Agrega este estilo para justificar el texto */
-}
-
-/* Contenedor para la imagen */
-.img-left {
-  float: left;
-  margin-right: 15px;
-  width: 300px; /* Ajusta el ancho según lo necesites */
-  height: auto;
-}
-
-.image-container {
-  text-align: center; /* Center the image and footer */
-}
-
-.centered-image {
-  display: block; /* Make the image a block element */
-  margin: 0 auto; /* Center the image horizontally */
-  width: 50%; /* Adjust the width as needed */
-  height: auto;
-}
-
-/* Estilo para el pie de página */
+/* Estilo para el pie de figura*/
 .footer {
   font-size: 17px; /* Adjust the font size as needed */
   margin-top: 12px; /* Add some space between the image and footer */
