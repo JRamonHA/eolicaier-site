@@ -1,13 +1,5 @@
 /* css styles */
-
-/* Estilo para la imagen alineada a la izquierda del párrafo */
-.img-left {
-    float: left;
-    margin-right: 15px;
-    width: 300px; /* Ajusta el ancho según lo necesites */
-    height: auto;
-  }
-  
+ 
   /* Contenedor para el texto */
   .text-container {
     margin-left: 315px; /* Ajusta el margen según el ancho de la imagen */
@@ -29,13 +21,7 @@
     width: 300px; /* Ajusta el ancho según lo necesites */
     height: auto;
   }
-   
-  .clearfix::after {
-    content: "";
-    display: block;
-    clear: both;
-  }
-  
+    
   .image-container {
     text-align: center; /* Center the image and footer */
   }
