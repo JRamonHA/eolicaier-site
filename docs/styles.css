@@ -29,6 +29,14 @@
   height: 300px; 
 }
 
+/* Clase para centrar la imagen y mantener la relación de aspecto */
+.imagen-centrada {
+  display: block; /* Importante para que el centrado funcione */
+  margin: 0 auto; /* Centrado automático horizontal */
+  max-width: 100%; /* Asegura que la imagen no se salga del contenedor */
+  height: auto; /* Mantiene la relación de aspecto */
+}
+
 /* Clase para el pie de figura*/
 .footer {
   font-size: 17px; /* Adjust the font size as needed */
