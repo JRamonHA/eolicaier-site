@@ -34,13 +34,6 @@
   height: auto;
 }
 
-/* Contenedor para el vídeo */
-.video-container {
-  float: left;
-  width: 300px; /* Ajusta el ancho del contenedor del vídeo */
-  margin-right: 15px; /* Espacio entre el vídeo y el texto */
-}
-
 /* Estilo para el pie de página */
 .footer {
   font-size: 17px; /* Adjust the font size as needed */
