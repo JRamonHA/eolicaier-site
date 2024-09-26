@@ -26,7 +26,7 @@ format:
     toc: true
     toc-depth: 4
     theme:
-        light: ier_claro.scss
-        dark: ier_dark.scss
+        light: ./themes/ier_claro.scss
+        dark: ./themes/ier_dark.scss
     css: styles.css
     page-layout: full
