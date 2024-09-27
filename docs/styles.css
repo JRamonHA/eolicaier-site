@@ -37,9 +37,98 @@
   height: auto; /* Mantiene la relación de aspecto */
 }
 
+/* Estilos para tabla de mapa curricular*/
+/* Define CSS variables */
+:root {
+  --yellow: #f6f619;
+  --light-blue: #65c6ea;
+  --dark-blue: #3b79dc;
+  --light-green: #4ae06a;
+  --light-orange: #fab54e;
+}
+
+/* Layout and typography */
+.mapa-curricular {
+  border-collapse: collapse;
+  width: 80%; /* Reducimos el ancho de la tabla */
+  margin: 0 auto; /* Center the table */
+  table-layout: fixed; /* Fija el ancho de las celdas */
+}
+
+.mapa-curricular td, .mapa-curricular th {
+  border: 1px solid #ddd;
+  padding: 5px; /* Reducimos el padding para que las celdas sean más pequeñas */
+  text-align: center;
+  height: 30px; /* Fija la altura de las celdas */
+  width: 16.67%; /* Fija el ancho de las celdas */
+  color: #222; /* Set text color */
+  font-size: 13px; /* Reducimos el tamaño de la fuente */
+}
+
+/* Colors */
+.mapa-curricular td {
+  /* Default color */
+  background-color: #f0f0f0;
+}
+
+.mapa-curricular tr:nth-child(1) td:nth-child(2),
+.mapa-curricular tr:nth-child(1) td:nth-child(3),
+.mapa-curricular tr:nth-child(1) td:nth-child(4),
+.mapa-curricular tr:nth-child(2) td:nth-child(2),
+.mapa-curricular tr:nth-child(2) td:nth-child(3),
+.mapa-curricular tr:nth-child(2) td:nth-child(4),
+.mapa-curricular tr:nth-child(3) td:nth-child(2),
+.mapa-curricular tr:nth-child(3) td:nth-child(3),
+.mapa-curricular tr:nth-child(3) td:nth-child(4),
+.mapa-curricular tr:nth-child(3) td:nth-child(5),
+.mapa-curricular tr:nth-child(4) td:nth-child(2) {
+  background-color: var(--yellow);
+}
+
+.mapa-curricular tr:nth-child(4) td:nth-child(3),
+.mapa-curricular tr:nth-child(4) td:nth-child(4),
+.mapa-curricular tr:nth-child(4) td:nth-child(5),
+.mapa-curricular tr:nth-child(4) td:nth-child(6),
+.mapa-curricular tr:nth-child(5) td:nth-child(2),
+.mapa-curricular tr:nth-child(5) td:nth-child(3),
+.mapa-curricular tr:nth-child(5) td:nth-child(4),
+.mapa-curricular tr:nth-child(5) td:nth-child(5),
+.mapa-curricular tr:nth-child(5) td:nth-child(6),
+.mapa-curricular tr:nth-child(6) td:nth-child(2),
+.mapa-curricular tr:nth-child(6) td:nth-child(3),
+.mapa-curricular tr:nth-child(6) td:nth-child(4),
+.mapa-curricular tr:nth-child(6) td:nth-child(5),
+.mapa-curricular tr:nth-child(6) td:nth-child(6) {
+  background-color: var(--light-blue);
+}
+
+.mapa-curricular tr:nth-child(2) td:nth-child(6),
+.mapa-curricular tr:nth-child(7) td:nth-child(3),
+.mapa-curricular tr:nth-child(7) td:nth-child(4),
+.mapa-curricular tr:nth-child(7) td:nth-child(5),
+.mapa-curricular tr:nth-child(8) td:nth-child(2),
+.mapa-curricular tr:nth-child(8) td:nth-child(3),
+.mapa-curricular tr:nth-child(8) td:nth-child(4),
+.mapa-curricular tr:nth-child(8) td:nth-child(5) {
+  background-color: var(--dark-blue);
+}
+
+.mapa-curricular tr:nth-child(1) td:nth-child(5),
+.mapa-curricular tr:nth-child(1) td:nth-child(6),
+.mapa-curricular tr:nth-child(7) td:nth-child(2),
+.mapa-curricular tr:nth-child(7) td:nth-child(6) {
+  background-color: var(--light-green);
+}
+
+.mapa-curricular tr:nth-child(2) td:nth-child(5),
+.mapa-curricular tr:nth-child(3) td:nth-child(6),
+.mapa-curricular tr:nth-child(8) td:nth-child(6) {
+  background-color: var(--light-orange);
+}
+
 /* Clase para el pie de figura*/
 .footer {
   font-size: 17px; /* Adjust the font size as needed */
-  margin-top: 12px; /* Add some space between the image and footer */
+  margin-top: 15px; /* Add some space between the image and footer */
   text-align: center; /* Center the footer text */
 }

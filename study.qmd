@@ -11,7 +11,73 @@ format: html
   <p>La Licenciatura en Ingeniería en Energías Renovables (LIER) es una carrera multidisciplinaria que surge como respuesta a los grandes retos energéticos y la problemática ambiental mundial, que demandan profesionales que atiendan las necesidades del sector energético y el desarrollo sustentable, con responsabilidad social. Esta carrera, se realiza en colaboración con el Instituto de Ingeniería de la UNAM (II-UNAM). Tiene una duración de 4 años y su mapa curricular se ejecuta semestralmente. Y participan especialistas en las áreas de sistemas fototérmicos, sistemas fotovoltáicos, diseño de materiales, sistemas de refrigeración y bombas de calor, energía geotérmica, energía eólica, biocombustibles, celdas de combustible, energía en edificaciones, planeación energética, sustentabilidad energética e impacto ambiental. Aunado a esta infraestructura de recursos humanos, el II-UNAM dispone también de una sólida planta académica con experiencia y reconocimiento en las áreas de sistemas fototérmicos, hidráulica, energía oceánica, energía en edificaciones y biocombustibles.</p>
   </div>
 
-<img src="./imgs/MapCurricular.png" alt="Mapa Curricular" class="imagen-centrada" width="600"> 
+<table class="mapa-curricular">
+  <tr>
+    <td>Semestre 1</td>
+    <td>Cálculo Diferencial</td>
+    <td>Álgebra y Geometría Analítica</td>
+    <td>Química</td>
+    <td>Redacción Técnica</td>
+    <td>Energía y Sociedad</td>
+  </tr>
+  <tr>
+    <td>Semestre 2</td>
+    <td>Cálculo Integral</td>
+    <td>Álgebra Lineal</td>
+    <td>Mecánica</td>
+    <td>Costos e Ingeniería Económica</td>
+    <td>Energía y Medio Ambiente</td>
+  </tr>
+  <tr>
+    <td>Semestre 3</td>
+    <td>Cálculo Vectorial</td>
+    <td>Ecuaciones Diferenciales</td>
+    <td>Termodinámica</td>
+    <td>Probabilidad y Estadística</td>
+    <td>Métodos Numéricos</td>
+  </tr>
+  <tr>
+    <td>Semestre 4</td>
+    <td>Electricidad y Magnetismo</td>
+    <td>Mecánica de Fluidos</td>
+    <td>Transferencia de Calor</td>
+    <td>Sistemas de Instrumentación y Control</td>
+    <td>Energía y Desarrollo Sustentable</td>
+  </tr>
+  <tr>
+    <td>Semestre 5</td>
+    <td>Solar Térmica</td>
+    <td>Solar Fotovoltaica</td>
+    <td>Termodinámica Aplicada</td>
+    <td>Eólica</td>
+    <td>Ingeniería en Materiales</td>
+  </tr>
+  <tr>
+    <td>Semestre 6</td>
+    <td>Geotermia</td>
+    <td>Hidroenergía</td>
+    <td>Introducción al Diseño Bioclimático</td>
+    <td>Hidrógeno y Energía</td>
+    <td>Bioenergía</td>
+  </tr>
+  <tr>
+    <td>Semestre 7</td>
+    <td>Recursos Energéticos y Necesidades de México</td>
+    <td>Modelos Estocásticos en Ingeniería</td>
+    <td>Diseño de Elementos de Máquinas</td>
+    <td>Innovación Tecnológica</td>
+    <td>Optativas de Elección de Ciencias Sociales y Humanidades</td>
+  </tr>
+  <tr>
+    <td>Semestre 8</td>
+    <td>Integración de Sistemas</td>
+    <td>Eólica II</td>
+    <td>Optativa III</td>
+    <td>Creación de Empresas Energéticas</td>
+    <td>Seminario de Titulación</td>
+  </tr>
+</table>
+
 <p class="footer">Mapa Curricular</p>
 
 ### [Posgrado en Ingeniería](https://www.ier.unam.mx/Posgrado.html)
