@@ -40,35 +40,50 @@
 /* Estilos para tabla de mapa curricular*/
 /* Define CSS variables */
 :root {
-  --yellow: #f6f619;
-  --light-blue: #65c6ea;
+  --yellow: #f0d71f;
+  --light-blue: #26a7fd;
   --dark-blue: #3b79dc;
-  --light-green: #4ae06a;
-  --light-orange: #fab54e;
+  --light-green: #2ad54f;
+  --light-orange: #faaa4e;
+  --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  --transition: all 0.2s ease;
 }
 
 /* Layout and typography */
 .mapa-curricular {
-  border-collapse: collapse;
-  width: 80%; /* Reducimos el ancho de la tabla */
-  margin: 0 auto; /* Center the table */
-  table-layout: fixed; /* Fija el ancho de las celdas */
+  border-collapse: separate;
+  border-spacing: 2px; 
+  width: 85%;
+  margin: 20px auto;
+  table-layout: fixed;
+  box-shadow: var(--box-shadow);
+  border-radius: 4px; /* Cambiado de 2.25px a 4px */
+  overflow: hidden;
 }
 
 .mapa-curricular td, .mapa-curricular th {
-  border: 1px solid #ddd;
-  padding: 5px; /* Reducimos el padding para que las celdas sean más pequeñas */
+  border: none;
+  padding: 8px;
   text-align: center;
-  height: 30px; /* Fija la altura de las celdas */
-  width: 16.67%; /* Fija el ancho de las celdas */
-  color: #222; /* Set text color */
-  font-size: 13px; /* Reducimos el tamaño de la fuente */
+  height: 35px;
+  width: 16.67%;
+  font-size: 13px;
+  font-weight: 500.25;
+  transition: var(--transition);
+  border-radius: 4px; /* Cambiado de 1.85px a 4px para coincidir con la tabla */
+}
+
+/* Hover effect */
+.mapa-curricular td:hover {
+  transform: scale(1.02);
+  box-shadow: var(--box-shadow);
+  z-index: 1;
+  cursor: pointer;
 }
 
 /* Colors */
 .mapa-curricular td {
-  /* Default color */
-  background-color: #f0f0f0;
+  background-color: #ababab;
 }
 
 .mapa-curricular tr:nth-child(1) td:nth-child(2),
@@ -124,6 +139,11 @@
 .mapa-curricular tr:nth-child(3) td:nth-child(6),
 .mapa-curricular tr:nth-child(8) td:nth-child(6) {
   background-color: var(--light-orange);
+}
+
+/* Efecto de sombra en hover para toda la tabla */
+.mapa-curricular:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* Clase para el pie de figura*/
